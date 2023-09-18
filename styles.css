@@ -1,0 +1,160 @@
+* {
+
+        margin-left: 10px;
+        margin-right: 10px;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    font-family: Mulish, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.navigation {
+    display: flex;
+    gap: 80px;
+
+}
+
+
+.contact {
+    justify-content:flex-end;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: inherit;
+    font-family: Mulish, Arial, sans-serif;
+    justify-content: flex-end;
+}
+
+.navigation a.contact {
+    margin-left: auto;
+}
+
+.border {
+    border: none;
+    border-top: 2px solid #000;
+    margin: 10px 0 30px;
+}
+
+
+.maintext {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.maintext p {
+    font-family: Mulish, Arial, sans-serif;
+    font-size: 120px;
+    margin-top: 0;
+}
+
+.infotext {
+    justify-content: space-between;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 80px;
+}
+
+.infotext a {
+    text-decoration: none;
+    color: inherit;
+    font-family: Arial,sans-serif, Mulish;
+}
+
+
+.wallpaper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.studio {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Mulish, Arial, sans-serif;
+    font-size: 47px;
+}
+
+.studiotext {
+    display: flex;
+    width: 600px;
+    font-family: Mulish, Arial, sans-serif;
+    font-size: 28px;
+    justify-content: flex-end;
+    align-items: start;
+    flex-direction: row-reverse;
+    margin-left: 800px;
+
+}
+.text2 {
+    width: 600px;
+    font-family: Mulish, Arial, sans-serif;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 800px;
+    font-size: 18px;
+}
+
+.more {
+    display: flex;
+    font-family: Mulish, Arial, sans-serif;
+    justify-content: center;
+    margin-left: 800px;
+    border-bottom: 1px solid black;
+    color: inherit;
+    font-size: 18px;
+    width: fit-content;
+}
+
+.lastproj {
+    font-size: 47px;
+    font-family: Mulish, Arial, sans-serif;
+    display: flex;
+    margin-top: 120px;
+}
+
+.photo-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.photo {
+    width: 100%;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+.podpis {
+   font-family: Mulish, Arial, sans-serif;
+    font-size: 25px;
+
+}
+
+
+
+
+
+
