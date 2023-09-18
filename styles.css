@@ -85,7 +85,6 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    justify-content: flex-end;
 }
 
 .studio {
