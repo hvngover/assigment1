@@ -1,15 +1,14 @@
 * {
-
         margin-left: 10px;
         margin-right: 10px;
-    box-sizing: border-box;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
@@ -18,7 +17,7 @@
 }
 
 body {
-    font-family: Mulish, Arial, sans-serif;
+    font-family: 'Mulish', Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -36,8 +35,13 @@ body {
 .navigation a {
     text-decoration: none;
     color: inherit;
-    font-family: Mulish, Arial, sans-serif;
+    font-family: 'Mulish', Arial, sans-serif;
     justify-content: flex-end;
+    transition: color 0.2s;
+}
+
+.navigation a:hover {
+    color:saddlebrown;
 }
 
 .navigation a.contact {
@@ -45,21 +49,19 @@ body {
 }
 
 .border {
-    border: none;
-    border-top: 2px solid #000;
-    margin: 10px 0 30px;
+    margin-top: 70px;
+    display: flex;
+    border-bottom: black solid 4px;
+
 }
-
-
 .maintext {
-    text-align: center;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
-
 .maintext p {
-    font-family: Mulish, Arial, sans-serif;
+    font-family: 'Mulish', Arial, sans-serif;
     font-size: 120px;
-    margin-top: 0;
+    margin-top: 80px;
 }
 
 .infotext {
@@ -72,64 +74,92 @@ body {
 .infotext a {
     text-decoration: none;
     color: inherit;
-    font-family: Arial,sans-serif, Mulish;
+    font-family: 'Mulish',Arial,sans-serif;
+    transition: color 0.2s;
 }
 
+.infotext a:hover {
+    color: saddlebrown;
+}
 
 .wallpaper img {
     max-width: 100%;
     height: auto;
 }
 
+
 .section2 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
+    border: black solid 4px;
+    padding: 15px;
 }
 
 .studio {
     display: flex;
     justify-content: flex-start;
-    font-family: Mulish, Arial, sans-serif;
+    font-family: 'Mulish', Arial, sans-serif;
     font-size: 47px;
 }
 
 .studiotext {
     display: flex;
     width: 600px;
-    font-family: Mulish, Arial, sans-serif;
+    font-family: 'Mulish', Arial, sans-serif;
     font-size: 28px;
     justify-content: flex-end;
     align-items: start;
     flex-direction: row-reverse;
     margin-left: 800px;
+    transition: color 0.2s;
 
+}
+
+.studiotext p:hover {
+    color: saddlebrown;
 }
 .text2 {
     width: 600px;
-    font-family: Mulish, Arial, sans-serif;
+    font-family: 'Mulish', Arial, sans-serif;
     display: flex;
     align-items: flex-end;
     margin-left: 800px;
     font-size: 18px;
+    transition: color 0.2s;
 }
-
+.text2 p:hover {
+    color: saddlebrown;
+}
 .more {
     display: flex;
-    font-family: Mulish, Arial, sans-serif;
+    font-family: 'Mulish', Arial, sans-serif;
     justify-content: center;
     margin-left: 800px;
     border-bottom: 1px solid black;
     color: inherit;
     font-size: 18px;
     width: fit-content;
+    transition: color 0.2s;
+}
+
+.more a:hover{
+color: saddlebrown;
 }
 
 .lastproj {
     font-size: 47px;
-    font-family: Mulish, Arial, sans-serif;
+    font-family: 'Mulish', Arial, sans-serif;
     display: flex;
     margin-top: 120px;
+    transition: color 0.2s;
+
+}
+
+
+.lastproj p:hover {
+    color: saddlebrown;
 }
 
 .photo-section {
@@ -145,12 +175,96 @@ body {
 .photo img {
     max-width: 100%;
     height: auto;
-}
-.podpis {
-   font-family: Mulish, Arial, sans-serif;
-    font-size: 25px;
+    border-radius: 10px;
 
 }
+.podpis {
+   font-family: 'Mulish', Arial, sans-serif;
+    font-size: 25px;
+    transition: color 0.2s;
+}
+
+.podpis p:hover {
+    color: saddlebrown;
+}
+
+.footer {
+    background-color: grey;
+    color: black;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-info {
+    text-align: right;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
+
+.footer-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.footer-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer-form input,
+.footer-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.footer-form button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-form button:hover {
+    background-color: saddlebrown;
+}
+
+hr {
+    border-bottom: black solid 2px;
+}
+
+
+
 
 
 
